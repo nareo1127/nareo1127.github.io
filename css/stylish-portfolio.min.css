@@ -431,3 +431,18 @@
     top: -30px;
   }
 }
+
+img {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity .6s, transform .6s;
+}
+
+img.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.masthead {
+  background-position: left;
+}
