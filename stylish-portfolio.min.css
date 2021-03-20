@@ -263,6 +263,50 @@
 	-webkit-background-clip: text;
 }
 
+
+.caption-content-kiku p {
+  text-align: center;
+  margin-top: 15px;
+  opacity: 0;
+  margin-right: 65px;
+}
+.portfolio-item:hover p{
+  opacity: 1;
+}
+.caption-content-tabi p{
+  margin-top: 20px;
+}
+
+.caption-content-kiku p {
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.caption-content-tabi p{
+  text-align: center;
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio-item:hover .caption-content-kiku p{
+  background-color: rgba(19, 19, 19, 0);
+  opacity: 1;
+}
+.portfolio-item:hover .caption-content-tabi p {
+  background-color: rgba(19, 19, 19, 0);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
 @media (min-width: 1000px) {
   .portfolio-item {
     margin-left: 15px;
